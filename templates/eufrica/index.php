@@ -5,9 +5,11 @@
  * @copyright        Copyright (C) 2012 obstkiste.org All rights reserved.
  * @license                GNU General Public License version 2 or later; see LICENSE.txt
  */
+
+defined('_JEXEC') or die;
 ?>
 <!DOCTYPE html>
-<html>
+<html xml:lang="<?php echo $this->language; ?>" ]lang="<?php echo $this->language; ?>">
 <head>
   <jdoc:include type="head" /> 
   <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/eufrika.org/css/template.css" type="text/css" />
@@ -48,14 +50,17 @@
     <nav id="mainmenue">
       <jdoc:include type="modules" name="main-menue" />
     </nav>
-    <div class="delimiter"></div>
+    <div class="nav_delimiter"></div>
     <div class="main_frame">
       <div class="left_frame">
-        <jdoc:include type="modules" name="content"
+        <jdoc:include type="modules" name="content_top" />
+        <jdoc:include type="component" />
+        <jdoc:include type="modules" name="content_top" />
       </div>
       <aside id="sitebar">
         <jdoc:include type="modules" name="sitebar" />
       </aside>
+      <br style="clear: both;" />
     </div>
 
     <footer>

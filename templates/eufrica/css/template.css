@@ -13,7 +13,7 @@
 
 @import url("top_nav.css");
 @import url("main_header.css");
-
+@import url("footer.css");
 
 body
 {
@@ -42,34 +42,63 @@ div.container {
   padding: 0;
 }
 
-div.footer_container {
+div.main_frame {
   width: 100%;
-  height: 280px;
-  padding-top: 30px;
-  background-color: #787878;
+  min-height: 200px;
 }
 
-footer {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #3c3c3c;
+div.left_frame {
+  float: left;
+  width: 580px;
 }
 
-footer table {
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
+aside#sitebar {
+  float: right;
+  width: 295px;
+  padding-left: 25px;
+}
+
+section#news_flash {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+h3.module_title {
+  margin: 0px;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
   text-align: left;
+  font-weight: 500;
+  padding-left: 6px;
 }
 
-div.copyright {
-  color: white;
-  margin-top: 50px;
-  background-color: #505050;
-  text-align: center;
+div.sitebar_delimiter {
+  margin-top: -5px;
+  border-top: 2px solid;
+}
+
+ul.latestnews {
+  list-style-type: none;
+  font-size: small;
+  text-align: left;
+  -webkit-margin-before: 0.6em;
+  -webkit-margin-after: 0.6em;
+  -webkit-padding-start: 0px;
+}
+
+ul.latestnews li a {
+  color: black;
+  text-decoration: none;
+}
+
+ul.latestnews li img {
+  vertical-align: middle;
+}
+
+ul.latestnews li u {
+  color: #8c0005;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 # Defaul definitions

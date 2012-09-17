@@ -22,7 +22,8 @@
   <positions>
     <position>static-menue</position>
     <position>main-menue</position>
-    <position>content</position>
+    <position>content_top</position>
+    <position>content_bottom</position>
     <position>sitebar</position>
   </positions>
 </extension>

@@ -98,27 +98,8 @@ ul.horizontal_main_nav li{
   padding-right: 4px;
 }
 
-div.delimiter {
+div.nav_delimiter {
   background-image: url(../images/delimiter.jpg);
   background-repeat: repeat-x;
   height: 6px;
-}
-
-div.main_frame {
-  width: 100%;
-  min-height: 200px;
-}
-
-div.left_frame {
-  float: left;
-  width: 580px;
-}
-
-aside#sitebar {
-  float: right;
-  width: 320px;
-}
-
-section#article_list {
-
 }
