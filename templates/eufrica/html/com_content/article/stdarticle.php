@@ -47,7 +47,7 @@ if (!empty($this->item->pagination) AND $this->item->pagination && !$this->item-
 endif; ?>
 
 <?php echo $this->item->event->beforeDisplayContent; ?>
-<u class="stdarticle_author">
+<div class="stdarticle_author">
   <?php $author = $this->item->created_by_alias ? $this->item->created_by_alias : $this->item->author; ?>
   <?php if (!empty($this->item->contactid) && $params->get('link_author') == true): ?>
   <?php
@@ -60,13 +60,13 @@ endif; ?>
   <?php else: ?>
     <?php echo JText::sprintf('%s', $author); ?>
   <?php endif; ?>
-</u>
+</div>
 <div class="article_delimiter"></div>
-<u class="stdarticle_published">
+<div class="stdarticle_published">
   <?php
     echo JText::sprintf('%s', JHtml::_('date', $this->item->publish_up, JText::_('d.m.Y')));
   ?>
-</u>
+</div>
 
 <?php if (isset ($this->item->toc)) : ?>
   <?php echo $this->item->toc; ?>
