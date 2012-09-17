@@ -9,11 +9,12 @@
   <copyright>Copyright (C) 2012 obstkiste.org All rights reserved.</copyright>
   <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
   <version>2.5.0</version>
-  <description>TPL_EUFRIKA_XML_DESCRIPTION</description>
+  <description>This is the template for eufirca.org</description>
 
   <files>
     <folder>css</folder>
     <folder>images</folder>
+    <folder>html</folder>
     <filename>index.html</filename>
     <filename>index.php</filename>
     <filename>templateDetails.xml</filename>
