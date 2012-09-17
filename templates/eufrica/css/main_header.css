@@ -1,0 +1,124 @@
+div.header_container {
+  height: 120px;
+}
+
+header#eufrika_logo {
+  background-image: url(../images/logo.jpg);
+  width: 345px;
+  height: 105px;
+  margin-left: 25px;
+  float: left;
+}
+
+div.left_bar {
+  float: right;
+  width: 530px;
+}
+
+u.language {
+  color: black;
+  text-decoration: none;
+}
+
+nav#language_selector {
+  float: right;
+  width: 160px;
+  height: 17px;
+  margin-right: 20px;
+  background-color: #9f9f9f;
+  border-bottom-right-radius: 19px 16px;
+  border-bottom-left-radius: 19px 16px;
+  color: white;
+  font-size: small;
+}
+
+nav#language_selector a {
+  color: white;
+  margin: 0px 10px;
+  text-decoration: none;
+}
+
+nav#language_selector a:hover {
+  color: black;
+}
+
+div.social_search_container {
+  float: right;
+  margin-top: 30px;
+}
+
+div.social_networks {
+  margin-bottom: -10px;
+}
+
+div.searchform {
+  margin-left: 20px;
+}
+
+div.searchform input[type="search"] {
+  border: 1px solid #9f9f9f;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  height: 20px;
+  padding: 2px 10px;
+  width: 200px;
+  color: #9f9f9f;
+  font-weight: normal;
+}
+
+nav#mainmenue {
+  height: 19px;
+  width: 100%;
+  padding: 0;
+  padding-top: 1px;
+  background-color: #dbdbdb;
+  font-size: medium;
+  font-weight: 600;
+}
+
+nav#mainmenue a {
+  color: black;
+  margin: 0px 30px;
+  text-decoration: none;
+}
+
+nav#mainmenue a:hover {
+  color: white;
+}
+
+ul.horizontal_main_nav {
+  display: inline;
+  list-style-type: none;
+  padding-right: 4px;
+}
+
+ul.horizontal_main_nav li{
+  display: inline;
+  list-style-type: none;
+  padding-right: 4px;
+}
+
+div.delimiter {
+  background-image: url(../images/delimiter.jpg);
+  background-repeat: repeat-x;
+  height: 6px;
+}
+
+div.main_frame {
+  width: 100%;
+  min-height: 200px;
+}
+
+div.left_frame {
+  float: left;
+  width: 580px;
+}
+
+aside#sitebar {
+  float: right;
+  width: 320px;
+}
+
+section#article_list {
+
+}

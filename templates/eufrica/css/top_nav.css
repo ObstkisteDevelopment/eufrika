@@ -1,0 +1,37 @@
+nav#static {
+  width: 880px;
+  height: 20px;
+  margin: 0;
+  margin-top: -2px;
+  padding: 0;
+  padding-top: 2px;
+  padding-left: 20px;
+  background-color: #f5f5f5;
+  font-size: small;
+  font-weight: 700;
+  text-align: left;
+}
+
+nav#static a {
+  color: black;
+  font-family: sans-serif;
+  margin: 0;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+nav#static a:hover {
+  color: #9f9f9f;
+}
+
+ul.horizontal_top_nav {
+  display: inline;
+  list-style-type: none;
+  padding-right: 4px;
+}
+
+ul.horizontal_top_nav li{
+  display: inline;
+  list-style-type: none;
+  padding-right: 4px;
+}

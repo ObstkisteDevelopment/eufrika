@@ -11,22 +11,66 @@
  * details.
  */
 
+@import url("top_nav.css");
+@import url("main_header.css");
+
 
 body
 {
         background: #fff;
         color: #000000;
         font-size: 100.1%;
-        padding: 0px;
+        padding: 0;
+        margin: 0;
+        border: 0;
         text-align: center;
+        font-family: sans-serif;
 }
 
-body.contentpane {
-		width:auto;
-		margin:10px;
-		text-align: left;
+div.top_border {
+  height: 13px;
+  background-image: url(../images/top_border.jpg);
+  background-repeat: repeat-x;
 }
+
+div.container {
+  width: 900px;
+  height: 100%;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+div.footer_container {
+  width: 100%;
+  height: 280px;
+  padding-top: 30px;
+  background-color: #787878;
+}
+
+footer {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #3c3c3c;
+}
+
+footer table {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: left;
+}
+
+div.copyright {
+  color: white;
+  margin-top: 50px;
+  background-color: #505050;
+  text-align: center;
+}
+
+# Defaul definitions
 img { border: 0 none; }
-
-
-
