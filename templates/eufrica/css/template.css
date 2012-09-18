@@ -16,6 +16,7 @@
 @import url("footer.css");
 @import url("sitebar.css");
 @import url("stdarticle.css");
+@import url("font.css");
 
 body
 {
@@ -26,7 +27,7 @@ body
         margin: 0;
         border: 0;
         text-align: center;
-        font-family: sans-serif;
+        font-family: 'OswaldLight';
 }
 
 div.top_border {

@@ -63,9 +63,21 @@ defined('_JEXEC') or die;
       <br style="clear: both;" />
     </div>
 
-    <footer>
-
-    </footer>
+    <div class="footer_container">
+      <div class="top_link">
+        <img src="<?php echo $this->baseurl ?>/templates/eufrika.org/images/arrows/top_arrow.jpg" />
+        <a href="javascript:window.scrollTo(0,0);">Top</a>
+      </div>
+      <br style="clear: both;" />
+      <footer>
+        <div class="footer_content">
+          <jdoc:include type="modules" name="footer_content" />
+        </div>
+        <div class="copyright">
+          <jdoc:include type="modules" name="copyright" />
+        </div>
+      </footer>
+    </div>
   </div>
 </body>
 </html>

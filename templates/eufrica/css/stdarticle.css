@@ -19,18 +19,23 @@ div.article_delimiter {
   margin-bottom: -2px;
 }
 
-div.stdarticle_published {
+div.stdarticle_top {
+  text-align: left;
+  font-size: small:;
+}
+
+div.stdarticle_bottom {
   text-align: right;
   font-size: small;
   margin-bottom: 10px;
 }
 
-div.stdarticle_author {
-  text-align: left;
-  font-size: small:;
+div.item-page ul {
+  display: inline;
+  list-style-type: none;
 }
 
-div.item-page ul {
+ul.actions {
   display: inline;
   list-style-type: none;
 }

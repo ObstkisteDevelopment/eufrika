@@ -15,6 +15,7 @@
     <folder>css</folder>
     <folder>images</folder>
     <folder>html</folder>
+    <folder>fonts</folder>
     <filename>index.html</filename>
     <filename>index.php</filename>
     <filename>templateDetails.xml</filename>
@@ -26,5 +27,7 @@
     <position>content_top</position>
     <position>content_bottom</position>
     <position>sitebar</position>
+    <position>copyright</position>
+    <position>footer_content</position>
   </positions>
 </extension>

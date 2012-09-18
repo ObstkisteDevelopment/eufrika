@@ -47,7 +47,7 @@ if (!empty($this->item->pagination) AND $this->item->pagination && !$this->item-
 endif; ?>
 
 <?php echo $this->item->event->beforeDisplayContent; ?>
-<div class="stdarticle_author">
+<div class="stdarticle_top">
   <?php $author = $this->item->created_by_alias ? $this->item->created_by_alias : $this->item->author; ?>
   <?php if (!empty($this->item->contactid) && $params->get('link_author') == true): ?>
   <?php
@@ -62,7 +62,7 @@ endif; ?>
   <?php endif; ?>
 </div>
 <div class="article_delimiter"></div>
-<div class="stdarticle_published">
+<div class="stdarticle_bottom">
   <?php
     echo JText::sprintf('%s', JHtml::_('date', $this->item->publish_up, JText::_('d.m.Y')));
   ?>
@@ -136,32 +136,25 @@ if (!empty($this->item->pagination) AND $this->item->pagination AND $this->item-
 
 <?php echo $this->item->event->afterDisplayContent; ?>
 <?php if ($canEdit ||  $params->get('show_print_icon') || $params->get('show_email_icon')) : ?>
-  <ul class="actions">
+  <div class="stdarticle_top">
   <?php if (!$this->print) : ?>
     <?php if ($params->get('show_print_icon')) : ?>
-      <li class="print-icon">
       <?php echo JHtml::_('icon.print_popup',  $this->item, $params); ?>
-      </li>
     <?php endif; ?>
 
     <?php if ($params->get('show_email_icon')) : ?>
-      <li class="email-icon">
       <?php echo JHtml::_('icon.email',  $this->item, $params); ?>
-      </li>
     <?php endif; ?>
 
     <?php if ($canEdit) : ?>
-      <li class="edit-icon">
       <?php echo JHtml::_('icon.edit', $this->item, $params); ?>
-      </li>
     <?php endif; ?>
 
   <?php else : ?>
-    <li>
     <?php echo JHtml::_('icon.print_screen',  $this->item, $params); ?>
-    </li>
   <?php endif; ?>
-
-  </ul>
+  </div>
 <?php endif; ?>
+  <div class="article_delimiter"></div>
+  <div class="stdarticle_bottom">Artikel teilen:</div>
 </div>
