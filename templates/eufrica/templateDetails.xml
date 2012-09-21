@@ -23,6 +23,7 @@
 
   <positions>
     <position>static-menue</position>
+    <position>language_selector</position>
     <position>main-menue</position>
     <position>content_top</position>
     <position>content_bottom</position>

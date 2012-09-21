@@ -25,12 +25,7 @@ defined('_JEXEC') or die;
       </header>
       <div class="left_bar">
         <nav id="language_selector">
-          <a href="#">
-            <u class="language">F</u>rancais
-          </a> - 
-          <a href="#">
-            <u class="language">E</u>nglish
-          </a>
+          <jdoc:include type="modules" name="language_selector" />
         </nav>
         <br />
         <div class="social_search_container">

@@ -1,0 +1,19 @@
+div#jflanguageselection ul{
+  display: inline;
+  list-style-type: none;
+  -webkit-padding-start: 0px;
+}
+
+div#jflanguageselection ul li{
+  display: inline;
+}
+
+ul.jflanguageselection li a span {
+  display: block;
+  float: left;
+  margin-left: 27px;
+}
+
+ul.jflanguageselection li a span:first-letter {
+  color: black;
+}
