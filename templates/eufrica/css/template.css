@@ -31,6 +31,11 @@ body
         font-family: 'OswaldLight';
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
 div.top_border {
   height: 13px;
   background-image: url(../images/top_border.jpg);
@@ -57,6 +62,45 @@ div.left_frame {
   padding-left: 15px;
 }
 
+div.pagination {
+  text-align: center;
+}
+
+div.pagination ul {
+  display: inline;
+  list-style-type: none;
+}
+
+li.pagination-start {
+  margin-right: 5px;
+}
+
+li.pagination-end {
+  margin-left: 5px;
+}
+
+li.pagination-next {
+  margin-left: 5px;
+}
+
+li.pagination-prev {
+  margin-right: 5px;
+}
+
+div.pagination ul li {
+  display: inline;
+  list-style-type: none;
+}
+
+div.pagination ul li a {
+  color: black;
+  margin: 0 2px;
+  text-decoration: none;
+}
+
+div.pagination ul li a:hover {
+  color: #9f9f9f;
+}
 
 
 # Defaul definitions

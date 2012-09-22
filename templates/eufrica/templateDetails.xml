@@ -16,6 +16,7 @@
     <folder>images</folder>
     <folder>html</folder>
     <folder>fonts</folder>
+    <folder>language</folder>
     <filename>index.html</filename>
     <filename>index.php</filename>
     <filename>templateDetails.xml</filename>
@@ -31,4 +32,10 @@
     <position>copyright</position>
     <position>footer_content</position>
   </positions>
+
+  <languages folder="language">
+    <language tag="en-GB">en-GB/en-GB.tpl_eufrika.org.ini</language>
+    <language tag="de-DE">de-DE/de-DE.tpl_eufrika.org.ini</language>
+    <language tag="fr-FR">fr-FR/fr-FR.tpl_eufrika.org.ini</language>
+  </languages>
 </extension>

@@ -156,5 +156,5 @@ if (!empty($this->item->pagination) AND $this->item->pagination AND $this->item-
   </div>
 <?php endif; ?>
   <div class="article_delimiter"></div>
-  <div class="stdarticle_bottom">Artikel teilen:</div>
+  <div class="stdarticle_bottom"><?php echo JText::_('TPL_EUFRIKA_SHARE_ARTICLE'); ?></div>
 </div>
