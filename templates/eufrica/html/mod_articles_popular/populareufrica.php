@@ -10,7 +10,7 @@
 defined('_JEXEC') or die;
 ?>
 <section id="news_flash">
-  <h3 class="module_title">Most popular on eufrika</h3>
+  <h3 class="module_title"><?php echo JText::_('TPL_EUFRIKA_MOST_POPULAR'); ?></h3>
   <div class="sitebar_delimiter"></div>
   <ul class="mostread<?php echo $moduleclass_sfx; ?>">
   <?php foreach ($list as $item) : ?>
