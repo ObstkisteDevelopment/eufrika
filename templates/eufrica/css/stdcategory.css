@@ -1,0 +1,33 @@
+div.items-leading div h2 {
+  font-weight: 500;
+  text-align: left;
+  -webkit-margin-after: 0.2em;
+}
+
+div.items-leading div h2 a {
+  color: black;
+  text-decoration: none;
+}
+
+div.img-intro-right {
+  float: right;
+  margin-left: 5px;
+}
+
+div.img-intro-left {
+  float: left;
+  margin-right: 5px;
+}
+
+div.jcomments-links {
+  text-align: right;
+}
+
+a.readmore-link {
+  color: black;
+  text-decoration: none;
+}
+
+a.readmore-link:hover {
+  color: #9f9f9f;
+}
